@@ -1,0 +1,13 @@
+@page "/samplepage"
+
+<p>Sample page using component</p>
+<SampleComponent @bind-Visible="Visible" />
+
+<p>@Visible</p>
+
+@code {
+
+// property for two-way binding
+public bool Visible { get; set; }
+
+}
